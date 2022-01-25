@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;  
+}
+body::after{
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    background-image: url('./images/BG.jpg');
+}
+.headlogo{
+    text-align: left;
+    width: 15%
+}
+
+.logo{
+    text-align: center;
+    margin-top: 10%;
+    position:fixed;
+}
+h3{
+    color: white;
+    font-size: 6em;
+    width: 126%;   
+}
+p{
+    text-transform: lowercase;
+    font-size:2em;
+}
+.text{
+    text-align: center;
+    font-size: 70px;
+}
+button{
+    color: white;
+}
+#anim {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.col{
+    color: white; 
+    text-align:left;
+    margin: auto;
+    width: 40%;
+}
